@@ -1,0 +1,7 @@
+{
+  "name": "it35c-mobile application",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
