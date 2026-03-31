@@ -1,15 +1,15 @@
 import { IonHeader, IonPage, IonTitle, IonToolbar } from "@ionic/react";
-const Menu: React.FC = () => {
+const Page1: React.FC = () => {
     return (
         <IonPage>
             <IonHeader>
                 <IonToolbar>
                     <IonTitle>
-                        page1
+                        Page1
                     </IonTitle>
                 </IonToolbar>
             </IonHeader>
         </IonPage>
     )
 };
-export default Menu;
+export default Page1;

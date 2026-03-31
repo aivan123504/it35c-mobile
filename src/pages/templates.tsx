@@ -6,7 +6,7 @@ const Templates: React.FC = () => {
         <IonPage>
             <IonHeader>
                 <IonToolbar>
-                    <IonTitle>Login</IonTitle>
+                    <IonTitle>=Template</IonTitle>
                 </IonToolbar>
             </IonHeader>
         </IonPage>

@@ -1,6 +1,6 @@
         import {IonButton, IonContent, IonHeader, IonPage, IonTitle, IonToolbar, useIonRouter} from '@ionic/react';
 
-        const login: React.FC = () => {
+        const Login: React.FC = () => {
             const navigation = useIonRouter ();
 
 const dologin = () => {
@@ -21,12 +21,12 @@ const dologin = () => {
                           
                                           <IonContent className="ion-padding">
                                             <IonButton expand="full" onClick={() => dologin()}>
-                                                login
+                                                Login
                                             </IonButton>
                                           </IonContent>
                                 </IonPage>
                               );
                             }
                 
-                export default login;
+                export default Login;
                     

@@ -1,12 +1,27 @@
-import React from 'react';
-import { IonButton } from '@ionic/react';
+import { IonButton, IonModal, IonHeader, IonToolbar, IonTitle, IonButtons } from '@ionic/react';
+import './ExploreContainer.css';
 
-function Example() {
+interface ContainerProps { }
+
+const ExploreContainer: React.FC<ContainerProps> = () => {
   return (
-    <>
-      <IonButton expand="block">Block</IonButton>
-      <IonButton expand="full">Full</IonButton>
-    </>
+    <div id="container">
+       <IonButton id="openModal">Open Modal</IonButton>
+              <IonModal trigger="openModal" id="modalElement">
+      
+                <IonHeader>
+                  <IonToolbar>
+                    <IonTitle>Modal</IonTitle>
+                    <IonButtons slot="end">
+                      <IonButton onClick={() => { const modal = document.getElementById('modalElement') as any; if (modal) { modal.dismiss(); } }}>Close</IonButton>
+                    </IonButtons>
+                  </IonToolbar>
+                  <h1>opennnnn</h1>
+                </IonHeader>
+      </IonModal>
+      
+    </div>
   );
-}
-export default Example;
+};
+
+export default ExploreContainer;
