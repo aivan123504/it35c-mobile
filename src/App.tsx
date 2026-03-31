@@ -4,7 +4,7 @@ import { IonReactRouter } from '@ionic/react-router';
 
 import Menu from './pages/menu';
 import login from './pages/login';
-import Home from './pages/home';
+import Home from './pages/Home';
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';

@@ -12,4 +12,4 @@ const Menu: React.FC = () => {
         </IonPage>
     )
 };
-export default page2;
+export default Menu;
